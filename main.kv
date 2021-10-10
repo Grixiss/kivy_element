@@ -1,0 +1,16 @@
+#:include accueil.kv
+#: include parametre.kv
+
+GridLayout:
+    cols:1
+    orientation:'lr-tb'
+    ScreenManager:
+        id:screen_manager
+
+        Accueil:
+            id:accueil
+            name:"accueil"
+
+        Parametre:
+            id:parametre
+            name:"parametre"
